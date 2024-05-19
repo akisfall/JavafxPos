@@ -146,6 +146,7 @@ public class OrderMenu extends Application {
         btnDelete.setStyle("-fx-font:14 calibre;");
         btnDelete.setOnAction((ActionEvent e) -> {
             OrderDetail selectedItem = table.getSelectionModel().getSelectedItem();
+            if(order_list.isEmpty()){ return;}
             if(selectedItem == null ){
                 order_list.remove(0);
             }
