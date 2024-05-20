@@ -268,7 +268,6 @@ public class OrderMenu extends Application {
         stage.setTitle("手搖飲與水果代購點單系統");
         stage.setScene(scene);
         stage.show();
-
     }
 
     public static void main(String[] args) {
