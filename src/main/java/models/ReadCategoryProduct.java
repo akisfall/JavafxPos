@@ -4,8 +4,6 @@ import java.util.TreeMap;
 import models.Product;
 
 public class ReadCategoryProduct {
-    
-     //準備好產品清單  
     public static TreeMap<String, Product> readProduct() {
         TreeMap<String, Product> product_dict = new TreeMap<>();
         String[][] product_array = {
